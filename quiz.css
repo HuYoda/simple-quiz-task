@@ -1,0 +1,115 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: 100vw 100vh;
+}
+#e1{grid-area: e1;}
+#e2{grid-area: e2;}
+#e3{grid-area: e3;}
+#e4{grid-area: e4;}
+#e5{grid-area: e5;}
+#e6{grid-area: e6;}
+#e7{grid-area: e7;}
+#e8{grid-area: e8;}
+#e9{grid-area: e9;}
+#e10{grid-area: e10;}
+#e11{grid-area: e11;}
+#e12{grid-area: e12;}
+#e13{grid-area: e13;}
+#e14{grid-area: e14;}
+#e15{grid-area: e15;}
+#e16{grid-area: e16;}
+#e17{grid-area: e17;}
+#e18{grid-area: e18;}
+#e19{grid-area: e19;}
+#e20{grid-area: e20;}
+#e21{grid-area: e21;}
+#e22{grid-area: e22;}
+#e23{grid-area: e23;}
+#e24{grid-area: e24;}
+#e25{grid-area: e25;}
+#e26{grid-area: e26;}
+#e27{grid-area: e27;}
+#e28{grid-area: e28;}
+#e29{grid-area: e29;}
+#e30{grid-area: e30;}
+#e31{grid-area: e31;}
+#e32{grid-area: e32;}
+#e33{grid-area: e33;}
+#r1{grid-area: r1;}
+#r2{grid-area: r2;}
+#r3{grid-area: r3;}
+#r4{grid-area: r4;}
+#r5{grid-area: r5;}
+#r6{grid-area: r6;}
+#r7{grid-area: r7;}
+#r8{grid-area: r8;}
+#r9{grid-area: r9;}
+#r10{grid-area: r10;}
+#r11{grid-area: r11;}
+#r12{grid-area: r12;}
+#b1{grid-area: b1;}
+#b2{grid-area: b2;}
+#b3{grid-area: b3;}
+#b4{grid-area: b4;}
+#b5{grid-area: b5;}
+#b6{grid-area: b6;}
+#b7{grid-area: b7;}
+#b8{grid-area: b8;}
+#y1{grid-area: y1;}
+#y2{grid-area: y2;}
+#y3{grid-area: y3;}
+#y4{grid-area: y4;}
+#y5{grid-area: y5;}
+#y6{grid-area: y6;}
+#y7{grid-area: y7;}
+#y8{grid-area: y8;}
+#l1{grid-area: l1;}
+#l2{grid-area: l2;}
+#l3{grid-area: l3;}
+#l4{grid-area: l4;}
+#l5{grid-area: l5;}
+#l6{grid-area: l6;}
+#l7{grid-area: l7;}
+#l8{grid-area: l8;}
+#o1{grid-area: o1;}
+#o2{grid-area: o2;}
+#o3{grid-area: o3;}
+#o4{grid-area: o4;}
+#o5{grid-area: o5;}
+#o6{grid-area: o6;}
+#o7{grid-area: o7;}
+#o8{grid-area: o8;}
+#g1{grid-area: g1;}
+#g2{grid-area: g2;}
+#g3{grid-area: g3;}
+#g4{grid-area: g4;}
+.red{background-color: red;}
+.blue{background-color: blue;}
+.purple{background-color: purple;}
+.green{background-color: green;}
+.orange{background-color: orange;}
+.lightblue{background-color: lightblue;}
+.yellow{background-color: yellow;}
+#grid > div{
+    width: 2vw;
+    height: 4vh;
+    border: outset gray 3px;
+}
+#grid{
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    display: grid;
+    grid-template-areas:
+    'e1  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   e33'
+    'e2  .   .   .   .   .   .   .   .   y5  y6  y7  .   .   .   .   e32'
+    'e3  .   .   .   .   .   .   .   .   .   y8  .   .   .   .   .   e31'
+    'e4  .   .   .   .   .   b5  .   .   .   .   .   .   .   o5  o6  e30'
+    'e5  r1  .   .   .   .   b6  b7  .   o1  .   .   .   .   l5  o7  e29'
+    'e6  r2  b1  .   r5  r6  r7  b8  .   o2  .   .   .   r12 l6  o8  e28'
+    'e7  r3  b2  .   y1  y2  r8  g4  .   o3  .   l1  l3  r11 l7  .   e27'
+    'e8  r4  b3  b4  y3  y4  g1  g2  g3  o4  l2  l4  r9  r10 l8  .   e26'
+    'e9  e10 e11 e12 e13 e14 e15 e16 e17 e18 e19 e20 e21 e22 e23 e24 e25'
+    ;
+}
